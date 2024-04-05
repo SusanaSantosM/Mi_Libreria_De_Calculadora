@@ -46,11 +46,7 @@ public class Calculadora {
                 break;
             case 4:
                 //División
-                if(dato2>0) {
-                    resultado = dato1 / dato2;
-                }else
-                    JOptionPane.showMessageDialog(null,"No se puede dividir entre cero","No válido",JOptionPane.ERROR_MESSAGE);
-                break;
+                resultado = dato1 / dato2;
             default:
                 //El null nos sirve para hacer condiciones en lugar de try-catch para el retorno
                 resultado = null;
